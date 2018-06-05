@@ -67,7 +67,8 @@
                         android:id="@+id/question_1_second_logo"
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
-                        android:src="@drawable/toyota_logo"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/android_logo"
                         android:contentDescription="@string/app_name" />
 
                 </LinearLayout>
@@ -129,7 +130,7 @@
                         android:id="@+id/question_2_first_logo"
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
-                        android:src="@drawable/starbucks_logo_1"
+                        android:src="@drawable/flipkart_logo"
                         android:contentDescription="@string/app_name" />
 
                 </LinearLayout>
@@ -244,7 +245,7 @@
                 android:id="@+id/question_4_logo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:src="@drawable/nike_logo"
+                android:src="@drawable/flipkart_logo"
                 android:contentDescription="@string/app_name" />
 
             <EditText
@@ -324,7 +325,7 @@
                         android:id="@+id/question_5_third_radio_logo"
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
-                        android:src="@drawable/old_apple_logo"
+                        android:src="@drawable/uber_logo"
                         android:contentDescription="@string/app_name" />
 
                 </LinearLayout>
@@ -344,7 +345,7 @@
                 android:id="@+id/question_6_logo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:src="@drawable/detroit_lions_logo"
+                android:src="@drawable/old_apple_logo"
                 android:contentDescription="@string/app_name"  />
 
             <EditText
