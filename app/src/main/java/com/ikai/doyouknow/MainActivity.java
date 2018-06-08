@@ -25,10 +25,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-//
-//        // Code to set custom text font style from assets folder.
-//        Typeface typeface = Typeface.createFromAsset(getAssets(),
-//                "fonts/Tangerine-Bold.ttf");
     }
 
     public void checkQuiz(View v) {
@@ -79,8 +75,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         StringBuilder sb = new StringBuilder();
-        for (String s : incorrectAnswersList)
-        {
+        for (String s : incorrectAnswersList) {
             sb.append(s);
             sb.append("\n");
         }
